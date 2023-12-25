@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es5", // コンパイル後のバージョン指定
+    "module": "commonjs", //コンパイル時にモジュール関連のコードをどの方式で扱うかを設定
+    "strict": true, // 厳格な型チェックを行う  any型を許容しない
+    "esModuleInterop": true //commonjs形式のモジュールをimportで読み込めるようにする
+  }
+}
