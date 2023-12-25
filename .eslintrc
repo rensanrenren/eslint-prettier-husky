@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true, //window, documentとかのグローバル変数を使えるようにする
+        "node": true, //processとかのグローバル変数を使えるようにする
+        "es6": true //ES6の構文を使えるようにする
+    },
+    "parserOptions": {
+        "sourceType": "module", //import, exportを使えるようにする
+        "ecmaVersion": "latest" 
+    },
+    "rules": {
+        // "no-console": "error", //console.logを使えないようにする
+        // "indent": 2,
+        // "quotes": ["error", "double"],
+        // "semi": ["error", "always"],
+        "no-unused-vars": ["off"],
+        "linebreak-style": ["off"]
+    },
+    "extends": ["airbnb-base"]
+}
+
