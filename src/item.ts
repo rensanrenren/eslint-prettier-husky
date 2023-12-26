@@ -8,7 +8,7 @@ export class Item {
     if (elem) {
       // 引数がnullでない場合
       elem.innerHTML =
-        'タイトル：' + this.name + '  挨拶: ' + this.price + 'です';
+        '初めてのTypeScript開発<br>' + this.name + '<p>意外にも書いてみると簡単である。<br>' + this.price;
     }
   }
 }
