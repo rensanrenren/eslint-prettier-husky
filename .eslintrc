@@ -15,7 +15,15 @@
     // "semi": ["error", "always"],
     "no-unused-vars": ["error"],
     "linebreak-style": ["off"],
-    "no-var": ["error"]
+    "no-var": ["error"],
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "never",
+        "ts": "never"
+      }
+    ]
   },
   "extends": ["airbnb-base"]
 }
