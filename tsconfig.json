@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "es5", // コンパイル後のバージョン指定
     "module": "commonjs", //コンパイル時にモジュール関連のコードをどの方式で扱うかを設定
     "strict": true, // 厳格な型チェックを行う  any型を許容しない
